@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3B5D8DB92CAED006009BCDAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B5D8D9F2CAED005009BCDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B5D8DA62CAED005009BCDAB;
+			remoteInfo = duckodu;
+		};
+		3B5D8DC32CAED006009BCDAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B5D8D9F2CAED005009BCDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B5D8DA62CAED005009BCDAB;
+			remoteInfo = duckodu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B5D8DA72CAED005009BCDAB /* duckodu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = duckodu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5D8DB82CAED006009BCDAB /* duckoduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = duckoduTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5D8DC22CAED006009BCDAB /* duckoduUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = duckoduUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3B5D8DA92CAED005009BCDAB /* duckodu */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = duckodu;
+			sourceTree = "<group>";
+		};
+		3B5D8DBB2CAED006009BCDAB /* duckoduTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = duckoduTests;
+			sourceTree = "<group>";
+		};
+		3B5D8DC52CAED006009BCDAB /* duckoduUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = duckoduUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B5D8DA42CAED005009BCDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5D8DB52CAED006009BCDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5D8DBF2CAED006009BCDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B5D8D9E2CAED005009BCDAB = {
+			isa = PBXGroup;
+			children = (
+				3B5D8DA92CAED005009BCDAB /* duckodu */,
+				3B5D8DBB2CAED006009BCDAB /* duckoduTests */,
+				3B5D8DC52CAED006009BCDAB /* duckoduUITests */,
+				3B5D8DA82CAED005009BCDAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B5D8DA82CAED005009BCDAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B5D8DA72CAED005009BCDAB /* duckodu.app */,
+				3B5D8DB82CAED006009BCDAB /* duckoduTests.xctest */,
+				3B5D8DC22CAED006009BCDAB /* duckoduUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B5D8DA62CAED005009BCDAB /* duckodu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5D8DCC2CAED006009BCDAB /* Build configuration list for PBXNativeTarget "duckodu" */;
+			buildPhases = (
+				3B5D8DA32CAED005009BCDAB /* Sources */,
+				3B5D8DA42CAED005009BCDAB /* Frameworks */,
+				3B5D8DA52CAED005009BCDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3B5D8DA92CAED005009BCDAB /* duckodu */,
+			);
+			name = duckodu;
+			packageProductDependencies = (
+			);
+			productName = duckodu;
+			productReference = 3B5D8DA72CAED005009BCDAB /* duckodu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B5D8DB72CAED006009BCDAB /* duckoduTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5D8DCF2CAED006009BCDAB /* Build configuration list for PBXNativeTarget "duckoduTests" */;
+			buildPhases = (
+				3B5D8DB42CAED006009BCDAB /* Sources */,
+				3B5D8DB52CAED006009BCDAB /* Frameworks */,
+				3B5D8DB62CAED006009BCDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B5D8DBA2CAED006009BCDAB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3B5D8DBB2CAED006009BCDAB /* duckoduTests */,
+			);
+			name = duckoduTests;
+			packageProductDependencies = (
+			);
+			productName = duckoduTests;
+			productReference = 3B5D8DB82CAED006009BCDAB /* duckoduTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B5D8DC12CAED006009BCDAB /* duckoduUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5D8DD22CAED006009BCDAB /* Build configuration list for PBXNativeTarget "duckoduUITests" */;
+			buildPhases = (
+				3B5D8DBE2CAED006009BCDAB /* Sources */,
+				3B5D8DBF2CAED006009BCDAB /* Frameworks */,
+				3B5D8DC02CAED006009BCDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B5D8DC42CAED006009BCDAB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3B5D8DC52CAED006009BCDAB /* duckoduUITests */,
+			);
+			name = duckoduUITests;
+			packageProductDependencies = (
+			);
+			productName = duckoduUITests;
+			productReference = 3B5D8DC22CAED006009BCDAB /* duckoduUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B5D8D9F2CAED005009BCDAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3B5D8DA62CAED005009BCDAB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					3B5D8DB72CAED006009BCDAB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3B5D8DA62CAED005009BCDAB;
+					};
+					3B5D8DC12CAED006009BCDAB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3B5D8DA62CAED005009BCDAB;
+					};
+				};
+			};
+			buildConfigurationList = 3B5D8DA22CAED005009BCDAB /* Build configuration list for PBXProject "duckodu" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B5D8D9E2CAED005009BCDAB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3B5D8DA82CAED005009BCDAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B5D8DA62CAED005009BCDAB /* duckodu */,
+				3B5D8DB72CAED006009BCDAB /* duckoduTests */,
+				3B5D8DC12CAED006009BCDAB /* duckoduUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B5D8DA52CAED005009BCDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5D8DB62CAED006009BCDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5D8DC02CAED006009BCDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B5D8DA32CAED005009BCDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5D8DB42CAED006009BCDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5D8DBE2CAED006009BCDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B5D8DBA2CAED006009BCDAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B5D8DA62CAED005009BCDAB /* duckodu */;
+			targetProxy = 3B5D8DB92CAED006009BCDAB /* PBXContainerItemProxy */;
+		};
+		3B5D8DC42CAED006009BCDAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B5D8DA62CAED005009BCDAB /* duckodu */;
+			targetProxy = 3B5D8DC32CAED006009BCDAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B5D8DCA2CAED006009BCDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B5D8DCB2CAED006009BCDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3B5D8DCD2CAED006009BCDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = duckodu/duckodu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"duckodu/Preview Content\"";
+				DEVELOPMENT_TEAM = 6WD83V8SSN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = duckOdu;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dhruvkoli.duckodu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3B5D8DCE2CAED006009BCDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = duckodu/duckodu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"duckodu/Preview Content\"";
+				DEVELOPMENT_TEAM = 6WD83V8SSN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = duckOdu;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dhruvkoli.duckodu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3B5D8DD02CAED006009BCDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6WD83V8SSN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dhruvkoli.duckoduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/duckodu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/duckodu";
+			};
+			name = Debug;
+		};
+		3B5D8DD12CAED006009BCDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6WD83V8SSN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dhruvkoli.duckoduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/duckodu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/duckodu";
+			};
+			name = Release;
+		};
+		3B5D8DD32CAED006009BCDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6WD83V8SSN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dhruvkoli.duckoduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = duckodu;
+			};
+			name = Debug;
+		};
+		3B5D8DD42CAED006009BCDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6WD83V8SSN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dhruvkoli.duckoduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = duckodu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B5D8DA22CAED005009BCDAB /* Build configuration list for PBXProject "duckodu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5D8DCA2CAED006009BCDAB /* Debug */,
+				3B5D8DCB2CAED006009BCDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B5D8DCC2CAED006009BCDAB /* Build configuration list for PBXNativeTarget "duckodu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5D8DCD2CAED006009BCDAB /* Debug */,
+				3B5D8DCE2CAED006009BCDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B5D8DCF2CAED006009BCDAB /* Build configuration list for PBXNativeTarget "duckoduTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5D8DD02CAED006009BCDAB /* Debug */,
+				3B5D8DD12CAED006009BCDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B5D8DD22CAED006009BCDAB /* Build configuration list for PBXNativeTarget "duckoduUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5D8DD32CAED006009BCDAB /* Debug */,
+				3B5D8DD42CAED006009BCDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B5D8D9F2CAED005009BCDAB /* Project object */;
+}
